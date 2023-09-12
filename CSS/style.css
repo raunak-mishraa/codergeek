@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Coda&family=Crimson+Pro:wght@500&family=Roboto:wght@400;900&display=swap");
+ @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Overpass:wght@400;700&family=Poppins:wght@500;600&family=Roboto:wght@300;400&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +12,7 @@
 html {
   font-size: 62.5%;
 }
+
 :root {
   --main-color: #454eff;
   /* --main-color: #00d08e; */
@@ -58,8 +61,8 @@ marquee{
   /* background: var(--main-color); */
   z-index: 2;
 }
-header {
-  height: 100%;
+header#home {
+  min-height: 100vh;/*changed from % to vh*/
   padding:var(--padding-main);
   background-color: var(--bg-color);
 }
@@ -73,8 +76,7 @@ header {
   transition: .7s ease-in-out;
 }
 .navbar.sticky{
-  /* margin-top: 21px; */
-  z-index: 100;
+  z-index: 9;
   position: fixed;
   top: 0;
   left: 0;
@@ -82,7 +84,6 @@ header {
   box-shadow:0px 2px 3px var(--main-color) ;
   padding:var(--padding)
 }
-
 .navbar ul {
   display: flex;
 }
@@ -199,9 +200,9 @@ i {
   color: var(--main-color);
   font-weight: bold
 }
-.right{
-  /* min-width: 300px; */
-}
+/* .right{
+  min-width: 300px;
+} */
 .hero .right img {
   width: 100%;
   animation:slideUp 1s ease forwards;
@@ -346,6 +347,7 @@ i {
   width: 90%;
   margin: 5rem auto 3rem auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 .course-item {
@@ -357,7 +359,7 @@ i {
   cursor: pointer;
   /* border: 3px solid red; */
   border-radius: 20px;
-  flex-basis: 30%;
+  flex-basis: 20%;
   min-width: 200px;
   font-family: var(--roboto);
   padding: 5rem 4rem;
@@ -368,7 +370,7 @@ i {
 }
 .course-item:hover {
   scale: 1.1;
-  box-shadow: 0px 5px 28px rgba(0, 4, 255, 0.3);
+  box-shadow: 0px 26.03px 39px rgba(0, 4, 255, 0.079);
 }
 
 .ibox {
@@ -495,9 +497,9 @@ i {
 .blog-item {
   background-color: #fff;
   border-radius: 3.4rem;
-  box-shadow: 0px 2px 3px rgba(91, 255, 69, 0.1);
+  box-shadow: 0px 2px 3px rgba(69, 88, 255, 0.1);
   overflow: hidden;
-  transition:all 0.2s;
+  transition:scale 0.2s;
 }
 .blog-item:hover {
  scale:1.1;
@@ -629,7 +631,7 @@ i {
 .contact-right {
   /* border: 4px solid black; */
   flex-basis: 45%;
-  min-width: 350px;
+  min-width: 290px;
 }
 .contact-right img {
   width: 90%;
@@ -652,7 +654,7 @@ i {
   /* border:2px solid red; */
 }
 form input,
-textarea {
+form textarea {
   width: 100%;
   padding: 12px;
   border: none;
@@ -662,7 +664,7 @@ textarea {
   border-radius: 7px;
 }
 form input:focus,
-textarea:focus {
+form textarea:focus {
   /* outline: 3px dotted var(--main-color); */
   outline: none;
   box-shadow: 0px 0px 3px 2px var(--main-color);
@@ -804,9 +806,6 @@ li > .btn:active {
   .right {
     margin-top: 3rem;
   }
-  .course-wrapper {
-    flex-wrap: wrap;
-  }
   .course-item,
   .browse-course {
     gap: 4rem;
@@ -822,6 +821,13 @@ li > .btn:active {
   }
 } */
 @media (max-width: 640px) {
+
+  .contact-left, .contact-right{
+    flex-basis: 100%;
+  }
+  .contact{
+    padding: 0;
+  }
   .blog-wrapper {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
@@ -855,7 +861,7 @@ li > .btn:active {
     margin-top: 3rem;
   }
 
-  header,
+  header#home,
   .steps,
   .courses,.navbar.sticky{
     padding: 20px;
@@ -882,9 +888,9 @@ li > .btn:active {
   form button{
     width: 100%;
   }
-  .contact-form {
+  /* .contact-form {
     width: 90%;
-  }
+  } */
   .browse-course {
     display: none;
   }
@@ -957,4 +963,12 @@ li > .btn:active {
   100%{
     transform: translateY(0);
   }
+}
+
+
+
+
+
+.main i{
+  font-size: 1.8rem;
 }
