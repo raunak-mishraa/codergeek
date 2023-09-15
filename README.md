@@ -1,8 +1,9 @@
-
 <div align="center">
   <br>
+<img width="500" alt="Capture" src="https://github.com/raunak-mishraa/codergeek/assets/107386749/e9c77315-38c4-41c1-9b08-4afa07a381fb">
 <!--   <img alt="codergeek" src="https://i.ibb.co/7jPXt0Z/logo1-92f1a87f.png" width="300px"> -->
   <h1>👩‍💻 Contribute to open source with codergeek 👩‍💻</h1>
+
 </div>
 <br> 
 
@@ -29,3 +30,10 @@ These instructions will get you a copy of the project up and running on your loc
 3. By checking the issue and working on that
 
 ## Steps to contribute
+
+#### Contributing Remotely
+1. Fork the repository
+
+![Screenshot (47)_LI](https://github.com/raunak-mishraa/codergeek/assets/107386749/1b025e55-d506-44fe-ace7-92e8ca63e2cc)
+
+2. Click on Code button and 
