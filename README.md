@@ -36,4 +36,14 @@ These instructions will get you a copy of the project up and running on your loc
 
 ![Screenshot (47)_LI](https://github.com/raunak-mishraa/codergeek/assets/107386749/1b025e55-d506-44fe-ace7-92e8ca63e2cc)
 
-2. Click on Code button and 
+2. Click on Code button and create a codespace
+
+![Screenshot (48)_LI](https://github.com/raunak-mishraa/codergeek/assets/107386749/39c8ffc0-146d-4f67-bf7a-a353a65482e4)
+
+3. Make changes and then commit and merge
+4. create a new pull request
+![Screenshot (49)_LI](https://github.com/raunak-mishraa/codergeek/assets/107386749/7a3acbcf-cf2c-4358-93fc-c62a703e1192)
+
+#### Contributing Locally
+
+
