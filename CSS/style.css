@@ -81,7 +81,7 @@ header#home {
   top: 0;
   left: 0;
   background-color:#fff;
-  box-shadow:0px 2px 3px var(--main-color) ;
+/*   box-shadow:0px 2px 3px var(--main-color) ; */
   padding:var(--padding)
 }
 .navbar ul {
