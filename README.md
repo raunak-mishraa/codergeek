@@ -23,6 +23,7 @@ These instructions will get you a copy of the project up and running on your loc
 1. Remote(Using github codespace)
 2. Local(Using Git)
 
+
 ## How to contribute <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
 
 1. By just opening a issue
@@ -32,6 +33,11 @@ These instructions will get you a copy of the project up and running on your loc
 ## Steps to contribute
 
 #### Contributing Remotely
+You can follow this video as well
+<br>
+<br>
+<a href="https://youtu.be/PXCtjpC9VaY?si=1Ty18Pf2mvcHDom5"><img width="300px" src="https://i.ytimg.com/vi/PXCtjpC9VaY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCygTgZ5jowh5Sv79qK68Z62VhFQg"></a>
+
 1. Fork the repository
 
 ![Screenshot (47)_LI](https://github.com/raunak-mishraa/codergeek/assets/107386749/1b025e55-d506-44fe-ace7-92e8ca63e2cc)
